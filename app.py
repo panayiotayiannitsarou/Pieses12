@@ -53,7 +53,6 @@ if uploaded_file:
         st.subheader("🔍 Προεπισκόπηση Μετά την Κατανομή")
         st.dataframe(df)
 
-        st.dataframe(df)
 
     # ➤ Εξαγωγή σε Excel
     if "ΤΜΗΜΑ" in df.columns:
